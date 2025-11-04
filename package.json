@@ -1,0 +1,25 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "A modern, responsive landing page for Positivus agency built with HTML, CSS, and SASS (SCSS) using BEM methodology.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch src/styles:dist/css",
+    "build": "sass src/styles:dist/css --no-source-map && cp src/index.html dist/ && mkdir -p dist/assets && cp -r src/assets/* dist/assets/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabyrzdev/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabyrzdev/positivus/issues"
+  },
+  "homepage": "https://github.com/sabyrzdev/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}
